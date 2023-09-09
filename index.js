@@ -1,7 +1,6 @@
 const cardContainer = async ()=>{
     try{
-        const res =await fetch("https://jsonplaceholder.typi
-        code.com/users");
+        const res =await fetch("https://jsonplaceholder.typicode.com/users");
         const result = await res.json();;
        
          const cardCollection= document.getElementById('cardCollection');
