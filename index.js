@@ -1,6 +1,7 @@
 const cardContainer = async ()=>{
     try{
-        const res =await fetch("https://jsonplaceholder.typicode.com/users");
+        const res =await fetch("https://jsonplaceholder.typi
+        code.com/users");
         const result = await res.json();;
        
          const cardCollection= document.getElementById('cardCollection');
@@ -11,7 +12,7 @@ const cardContainer = async ()=>{
                 <div class="card-body">
                   <h5 class="card-title">Name : ${result[i].name}</h5>
                   <p class="card-text"> User Name : ${result[i].username}</p>
-                  <p class="card-text"> Emailid : ${result[i].emailid}</p>
+                  <p class="card-text"> Emailid : ${result[i].email}</p>
                   <p class="card-text"> City: ${result[i].address.city}</p>
                 </div>`
                 

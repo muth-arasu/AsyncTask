@@ -20,7 +20,8 @@ body{
  background-color: rgb(54, 139, 189);
  font-weight: 900;
  font-size: 30px;
- padding: 30px 40px;
+ padding: 20px 40px;
+ color: #fff;
 }
 .card-body{
     background-color:#82e2e2;
